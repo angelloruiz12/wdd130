@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Rock+Salt&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+#logo-space{
+    background-color:#454ade ;
+}
 
 nav {
     text-align: center;
+    background-color:#454ade ;
 }
 nav a {
+    padding: 35px;
     text-decoration: none;
     text-align: center;
     color: #080f0f
+    
+    
     
     
 }
@@ -27,12 +35,19 @@ nav a:hover{
 #hero-img {
     width: 100%;
 }
+#logo_link {
+    padding-top: 5px;
+}
+
 .button-box {
     text-align: center;
 }
 
 main section {
     text-align: center;
+}
+main section img{
+    box-sizing: border-box;
 }
 
 #background {
@@ -41,15 +56,23 @@ main section {
 
 body{
     background-color: #cdf7f6	;
+    font-family: "Noto Serif",'Bradley Hand', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #cdf7f6;
 }
 
 .book, .join {
-    background-color: #454ade;
+    background-color: white;
     color: #080f0f;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
     
 }
@@ -60,19 +83,22 @@ header{
 #background{
     background-color: #454ade	;
 }
-.msg{
-    background-color: #080f0f
-    ;
-}
+
 footer{
     background-color: #454ade;
     color: #080f0f;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #ff6663;
     text-decoration: none;
     font-size: 1.2em;
 
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 footer a:hover {
     color: white
@@ -85,23 +111,52 @@ footer p a:hover {
 
 .home-title{
     color: #080f0f;
+    font-family: "Rock Salt",'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: #080f0f;
 }
 
+.mountains {
+    margin-top: 100px;
+    
+}
+
+.msg{
+    background-color: #080f0f;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
+
+}
+
 .msg h2{
-    color: #080f0f;
+    color: white;
+    font-family: "Rock Salt",'Bradley Hand', sans-serif;
+    margin: 0;
 
 }
 .msg p {
-    color: #080f0f;
+    color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
+    border-radius: 50%;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
