@@ -26,7 +26,8 @@ body {
     display:grid;
     grid-template-columns: repeat(3,1fr) ;
     height: 30em;
-    width: 25em;
+    width: 100%;
+    max-width: 500px;
     /* border:3px solid black; */
     gap: 80px;
     
