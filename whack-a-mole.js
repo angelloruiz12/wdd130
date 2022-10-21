@@ -4,6 +4,7 @@ console.log(holes)
 const scoreEl = document.querySelector('.score span');
 let score = 0;
 let timer = null;
+
 function run (){
     const i = Math.floor(Math.random()*holes.length)
     const hole = holes[i]
@@ -22,7 +23,7 @@ function run (){
     timer = setTimeout(()=>{
         hole.removeChild(img)
         run()
-    }, 1000)
+    }, 1500)
 }
 run();
 
