@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AmazingTravels</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body>
+<body id="content">
     <!-- this is the header: the logo and the navigation box with the 2 subpages in it. -->
     <header>
         <a href="index.html" id="logo_link">
@@ -21,23 +22,28 @@
     </header>
 
     <!-- this section will contain the hero image that will change to show another picture -->
-    <section>
-        <h1>Welcome to the HomePage</h1>
-        <img src="images/rafting.jpg" alt="Rafting">
-        <img src="images/dunas.jpg" alt="Dunas">
+    <section class="hero-space">
+        <h1 id="hero-text">Welcome to the HomePage</h1>
+        <img src="images/rafting.jpg" alt="Rafting" class="hero-picture">
+        <img src="images/dunas.jpg" alt="Dunas" class="hero-picture">
     </section>
+
+    <!-- Here there is a div to create a space and separate the hero part and the main part -->
+    <div id="space"></div>
 
     <!-- This is the main tag and I will put the principal content on it. It is divided two sections and 
     each section has a picture and next to it a text -->
-    <main>
-        <section>
-            <img src="images/festival1.jpg" alt="City of Ica">
-            <p>Description of the most important fact about the city</p>
+    <main class="main-home">
+        
+        <section class="section-grid">
+            <img src="images/festival1.jpg" alt="City of Ica" class="main-picture" id="main-picture1">
         </section>
-        <section>
-            <img src="images/festival2.jpg" alt="City of Lunahuana">
-            <p>Description of the most important fact about the city</p>
-        </section>
+        <p id="main-text1">Description of the most important fact about the city</p>
+        
+        <section class="section-grid" id="section-grid2">
+            <img src="images/festival2.jpg" alt="City of Lunahuana" class="main-picture" id="main-picture2">
+        </section >
+        <p id="main-text2">Description of the most important fact about the city</p>
     </main>
 
     <!-- This is the footer, here I will put the social media icons, phone numbers, and the email. -->

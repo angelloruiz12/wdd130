@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Shadows+Into+Light&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "nunito", "shadows into light", 'arial';
+    
+}
+
+header{
+display:grid;
+grid-template-columns: 150px auto;
+border: 1px black solid;
+}
+header nav{
+    text-align: center;
+    
+}
+header nav a{
+    margin: 100px;
+    align-items: center;
+}
+.logo {
+    width: 150px;
+}
+
+
+
+
+.hero-space{
+    display:grid;
+    grid-template-columns: 1/3;
+    text-align: center;
+}
+.hero-picture{
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+
+
+#space{
+    height: 300px;
+    background-color: rgb(4, 90, 4);
+}
+
+
+.main-home{
+    display: grid;
+    grid-template-columns: 15px 1fr 1fr 1fr 15px;
+    border: 1px black solid;
+
+}
+.section-grid{
+    border: 1px black solid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+    
+}
+#section-grid2{
+    grid-row: 2/3;
+    grid-column: 4/5;
+    width: 100%;
+
+}
+.main-picture{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+#main-text1{
+    border: 1px black solid;
+    margin:0;
+    grid-column: 3/5
+    
+    
+}
+#main-text2 {
+    border: 1px black solid;
+    grid-column:2/4 ;
+    margin:0;
+}
+.main-background{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #454ade;
+    color: #080f0f;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: #ff6663;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+footer a:hover {
+    color: white
+
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}  
